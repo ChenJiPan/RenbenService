@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+#HomeContentBox {
+  position: fixed;
+  left: 26%;
+  right: 26%;
+  top: 5%;
+  bottom: 5%;
+  /* background-color: #42B983; */
+}
+
+.backBoxBG {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  background: linear-gradient(135deg, #FC267D 0%, #FE5266 51%, #FF7854 100%);
+}
+
+.LogoImgBox {
+  background-size: cover;
+  vertical-align: middle;
+  height: 40px;
+}
+
+.downloadHint {
+  float: right;
+  margin: auto 20px;
+  text-align: center;
+}
+
+.downloadHint span {
+  font-size: 12px;
+  font-family: PingFang-SC-Heavy, PingFang-SC;
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 17px;
+}
+
+.downloadHint p {
+  margin: 8px auto;
+  width: 23px;
+  height: 3px;
+  background: #FFFFFF;
+  border-radius: 2px;
+}
+
+.contentBox {
+  position: absolute;
+  left: -30px;
+  right: -30px;
+  top: 40px;
+  bottom: 30px;
+
+  background: url(../../../static/img/bgBackImg.png) no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+}
+
+#downloadiOSAPP {
+  position: relative;
+  top: 40%;
+  left: 7%;
+  width: 125px;
+  height: 38px;
+}
+
+#downloadAndroidAPP {
+  position: relative;
+  top: 40%;
+  left: 7%;
+  width: 125px;
+  height: 38px;
+}
+
+.hintBox {
+  position: absolute;
+  height: 30px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+
+  font-size: 9px;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  /* background-color: aqua; */
+}
