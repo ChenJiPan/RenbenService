@@ -2,7 +2,7 @@
   <div>
     <!-- 背景 -->
     <div class="backBoxBG"></div>
-    <div id="HomeContentBox">
+    <div id="HomeContentBox_PC">
       <!-- 标题栏 -->
       <img class="LogoImgBox" src="../../../static/img/logo.png">
       <div class="downloadHint">
@@ -10,9 +10,9 @@
         <p></p>
       </div>
 
-      <div class="contentBox">
-        <img id="downloadiOSAPP" src="../../../static/img/loadIOS.png" @click="pushLoadIOSApp">
-        <img id="downloadAndroidAPP" src="../../../static/img/loadAndroid.png" @click="pushLoadAndroidApp">
+      <div class="contentBox_PC">
+        <img class="downloadAPP_PC" src="../../../static/img/loadIOS.png" @click="pushLoadIOSApp">
+        <img class="downloadAPP_PC" src="../../../static/img/loadAndroid.png" @click="pushLoadAndroidApp">
       </div>
 
       <!-- 底部内容 -->

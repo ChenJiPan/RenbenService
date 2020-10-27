@@ -11,13 +11,20 @@ img {
   object-fit: cover;
 }
 
-#HomeContentBox {
+#HomeContentBox_PC {
   position: fixed;
   left: 26%;
   right: 26%;
   top: 5%;
   bottom: 5%;
-  /* background-color: #42B983; */
+}
+
+#HomeContentBox_M{
+  position: fixed;
+  left:5%;
+  right: 5%;
+  top: 5%;
+  bottom: 2%;
 }
 
 .backBoxBG {
@@ -59,19 +66,29 @@ img {
   border-radius: 2px;
 }
 
-.contentBox {
+.contentBox_PC {
   position: absolute;
   left: -30px;
   right: -30px;
   top: 40px;
   bottom: 30px;
-
   background: url(../../../static/img/bgBackImg.png) no-repeat;
   background-size: 100% 100%;
   -moz-background-size: 100% 100%;
 }
 
-#downloadiOSAPP {
+.contentBox_M {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 40px;
+  bottom: 50px;
+  background: url(../../../static/img/bgBackImg_M.png) no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+}
+
+.downloadAPP_PC {
   position: relative;
   top: 40%;
   left: 7%;
@@ -79,9 +96,10 @@ img {
   height: 38px;
 }
 
-#downloadAndroidAPP {
+.downloadAPP_M{
   position: relative;
-  top: 40%;
+  display: block;
+  top: 30%;
   left: 7%;
   width: 125px;
   height: 38px;
@@ -89,7 +107,6 @@ img {
 
 .hintBox {
   position: absolute;
-  height: 30px;
   bottom: 0px;
   left: 0px;
   right: 0px;
