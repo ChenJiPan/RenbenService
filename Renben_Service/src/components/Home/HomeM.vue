@@ -17,7 +17,7 @@
 
       <!-- 底部内容 -->
       <div class="hintBox">
-        <p style="text-align: left;">服务协议&emsp;&emsp;隐私政策</p>
+        <p style="text-align: left;" @click="pushProtocol">服务协议&emsp;&emsp;隐私政策</p>
         <p style="text-align: center;margin-top: 20px;">粤ICP备19038094号&emsp;深圳普绪克网络科技有限公司</p>
       </div>
 
@@ -36,6 +36,10 @@
       //下载安卓APP
       pushLoadAndroidApp() {
 
+      },
+      //跳转协议
+      pushProtocol(){
+        window.location.href = 'https://dev.psychelove.com/#/Privacy'
       }
     }
   }

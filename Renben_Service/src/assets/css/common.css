@@ -7,26 +7,6 @@
   user-select: none;
 }
 
-img {
-  object-fit: cover;
-}
-
-#HomeContentBox_PC {
-  position: fixed;
-  left: 26%;
-  right: 26%;
-  top: 5%;
-  bottom: 5%;
-}
-
-#HomeContentBox_M{
-  position: fixed;
-  left:5%;
-  right: 5%;
-  top: 5%;
-  bottom: 2%;
-}
-
 .backBoxBG {
   position: fixed;
   top: 0;
@@ -34,8 +14,23 @@ img {
   right: 0;
   bottom: 0;
   z-index: -1;
-
   background: linear-gradient(135deg, #FC267D 0%, #FE5266 51%, #FF7854 100%);
+}
+
+#HomeContentBox_PC {
+  position: fixed;
+  left: 25%;
+  right: 25%;
+  top: 56px;
+  bottom: 50px;
+}
+
+#HomeContentBox_M {
+  position: fixed;
+  left: 15px;
+  right: 15px;
+  top: 25px;
+  bottom: 20px;
 }
 
 .LogoImgBox {
@@ -68,52 +63,56 @@ img {
 
 .contentBox_PC {
   position: absolute;
-  left: -30px;
-  right: -30px;
-  top: 40px;
-  bottom: 30px;
-  background: url(../../../static/img/bgBackImg.png) no-repeat;
-  background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
+  left: 0px;
+  right: 0px;
+  top: 55px;
+  bottom: 32px;
+  background-color: #FFFFFF;
+  border-radius: 18px;
+  box-shadow: 0px 3px 20px 0px #E72229;
+  background: url(../../../static/img/bgBackImg_PC.png) no-repeat;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
 }
 
 .contentBox_M {
   position: absolute;
   left: 0px;
   right: 0px;
-  top: 40px;
-  bottom: 50px;
+  top: 55px;
+  bottom: 70px;
+  background-color: #FFFFFF;
+  border-radius: 18px;
+  box-shadow: 0px 3px 20px 0px #E72229;
   background: url(../../../static/img/bgBackImg_M.png) no-repeat;
-  background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
 }
 
 .downloadAPP_PC {
   position: relative;
-  top: 40%;
-  left: 7%;
+  top: 46%;
+  left: 40px;
   width: 125px;
-  height: 38px;
 }
 
-.downloadAPP_M{
+.downloadAPP_M {
   position: relative;
   display: block;
-  top: 30%;
-  left: 7%;
+  top: 187px;
+  left: 17px;
   width: 125px;
-  height: 38px;
 }
 
 .hintBox {
   position: absolute;
   bottom: 0px;
-  left: 0px;
-  right: 0px;
-
+  left: 5px;
+  right: 5px;
   font-size: 9px;
   font-family: PingFang-SC-Medium, PingFang-SC;
   font-weight: 500;
   color: #FFFFFF;
-  /* background-color: aqua; */
 }
